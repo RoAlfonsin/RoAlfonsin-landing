@@ -50,50 +50,56 @@ function Jumbotron(){
 function Cards(){
 	return (
 		<div className="container">
-			<div className="col-12 col-md-3">
-				<div class="card" style={{width:250}}>
-					<img src="https://es.wikiarquitectura.com/wp-content/uploads/2017/01/43_Museo_Acropolis-500x325.jpg" class="card-img-top" />
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+			<div className="row">
+				<div className="col-sm-12 col-lg-6 col-xl-3 mb-2">
+					<div className="card text-center h-100">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mana_Baba_Temple.jpg/1280px-Mana_Baba_Temple.jpg" class="card-img-top" alt="..."/>
+						<div className="card-body">
+							<h5 className="card-title">Gather the ingredients</h5>
+							<p className="card-text">List of ingredients (e.g., chicken breast, olive oil, salt, pepper, garlic powder)</p>
+						</div>
+						<div className="card-footer">
+							<a href="#" className="btn btn-primary">Find out first!</a>
+						</div>
+					</div>
+				</div>
+				<div className="col-sm-12 col-lg-6 col-xl-3 mb-2">
+					<div className="card text-center h-100">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mana_Baba_Temple.jpg/1280px-Mana_Baba_Temple.jpg" class="card-img-top" alt="..."/>
+						<div className="card-body">
+							<h5 className="card-title">Prepare the chicken</h5>
+							<p className="card-text">Preheat the oven to 400°F (200°C), season the chicken breast with salt, pepper, and garlic powder on both sides. Heat a tablespoon of olive oil in a skillet over medium-high heat.</p>
+						</div>
+						<div className="card-footer">
+							<a href="#" className="btn btn-primary">Find out second!</a>
+						</div>
+					</div>
+				</div>
+				<div className="col-sm-12 col-lg-6 col-xl-3 mb-2">
+					<div className="card text-center h-100">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mana_Baba_Temple.jpg/1280px-Mana_Baba_Temple.jpg" class="card-img-top" alt="..."/>
+						<div className="card-body">
+							<h5 className="card-title">Bake the chicken</h5>
+							<p className="card-text">Transfer the seared chicken breast to a baking dish.</p>
+						</div>
+						<div className="card-footer">
+							<a href="#" className="btn btn-primary">Find out third!</a>
+						</div>
+					</div>
+				</div>
+				<div className="col-sm-12 col-lg-6 col-xl-3 mb-2">
+					<div className="card text-center h-100">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mana_Baba_Temple.jpg/1280px-Mana_Baba_Temple.jpg" class="card-img-top" alt="..."/>
+						<div className="card-body">
+							<h5 className="card-title">Serve and enjoy</h5>
+							<p className="card-text">Cooking times and temperatures may vary depending on the thickness of the chicken breast, so it's always a good idea to check for doneness using a meat thermometer (the internal temperature should reach 165°F or 74°C).</p>
+						</div>
+						<div className="card-footer">
+							<a href="#" className="btn btn-primary">FO4th!</a>
+						</div>
 					</div>
 				</div>
 			</div>
-
-			<div className="col-12 col-md-3">
-				<div class="card" style={{width:250}}>
-					<img src="https://es.wikiarquitectura.com/wp-content/uploads/2017/01/43_Museo_Acropolis-500x325.jpg" class="card-img-top" />
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-
-			<div className="col-12 col-md-3">
-				<div class="card" style={{width:250}}>
-					<img src="https://es.wikiarquitectura.com/wp-content/uploads/2017/01/43_Museo_Acropolis-500x325.jpg" class="card-img-top" />
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-
-			<div className="col-12 col-md-3">
-				<div class="card" style={{width:250}}>
-					<img src="https://es.wikiarquitectura.com/wp-content/uploads/2017/01/43_Museo_Acropolis-500x325.jpg" class="card-img-top" />
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	)
 }
@@ -101,8 +107,8 @@ function Cards(){
 //<Footer />
 function Footer(){
 	return (
-		<div className="container-flex bg-dark position-absolute bottom-0 w-100 d-flex justify-content-center">
-			<p className="text-light">This is my website 2023</p>
+		<div className="container-flex bg-dark w-100 mt-3 text-center">
+			<p className="text-light p-0">This is my website 2023</p>
 		</div>
 	)
 }
